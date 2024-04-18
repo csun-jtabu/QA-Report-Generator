@@ -1,0 +1,4 @@
+Placement,_id,Test #,Build #,Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Test Owner
+First,660bc252020488fac70bbb58,1,3/19/2024,Adventure Select Screen,User clicked on the Adventures button from the main menu options.,User is able to click on the icons and buttons present on the screen.,"Nothing happens when user clicks on the Book and House icons in the upper right corner, or on the Deck Builder button in the lower left corner.",Yes,No,Yana Zaynullina
+Middle,660bc252020488fac70bbd85,3,3/12/2024,Game,User case: Opponent went and instantly crashed,Be able to play in Arena,Sent back into Login screen,yes,Yes,Ryan Kao
+Last,660bc253020488fac70bbf9f,3,2/22/2024,Game (Training Mode),AI oppoenent attacks dynamically.,AI opponent will attack in a mathematically efficent way to best win the game.,AI opponent will only attack from left to right (user POV).,Yes,No,Jason Ross

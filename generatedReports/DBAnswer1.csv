@@ -1,0 +1,33 @@
+Test #,Build #,Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Test Owner
+1,2/21/2024,Main Menu Screen,"Although I already played the tutorial, whenever I reach the main menu, they ask me if I'm a new user and allow me to play the tutorial","I expect to not get the ""New player?"" message if I already played the tutorial","I get the ""New player?"" message",yes,no,Jaztin Tabunda
+2,2/21/2024,Game,"You can't change the Master Volume, Music Volume, Sound FX during the game",I expect the volume to go lower or higher when I change any of the audio sliders.,It doesn't do anything. Audio remains the same,yes,no,Jaztin Tabunda
+3,2/21/2024,UI,"Training Mode game states ""Exit Tutorial""","Exit button should say ""Exit Training Mode""","""Exit Tutorial"" is displayed",yes,no,Jaztin Tabunda
+1,3/1/2024,Login,Username doesn't appear on top right after logging in. Blockchain id shows up instead,I expect my game username to show up,My blockchain name shows instead,yes,no,Jaztin Tabunda
+2,3/1/2024,UI,"In the tutorial battle, my blockchain name shows instead of my in-game username",I expect my game username to show up,My blockchain name shows instead,yes,no,Jaztin Tabunda
+3,3/1/2024,Game,Training mode doesn't give enough cards to play a full game,Game needs to provide enough cards to keep gaming going,Training mode gives only 2 cards for player and AI resulting in inability to continue game,yes,yes,Jaztin Tabunda
+4,3/1/2024,Game,Game kicks me out of the game and forces me to log back in randomly,Game should redirect me to main menu,Takes me to login page,yes,no,Jaztin Tabunda
+5,3/1/2024,UI,Menu Settings X button doesn't close settings window,Pressing X should close the settings window,"You can't close the settings window with the X button, you have to use the cancel button",yes,no,Jaztin Tabunda
+6,3/1/2024,Login,Refreshing the page forces me to log back in,Game should redirect me to main menu,Takes me to login page,yes,no,Jaztin Tabunda
+7,3/1/2024,UI,"When trying to add a friend, no text box appears so you can't search for a username",Search bar should appear to find friend,Blank Brown Text box,yes,yes,Jaztin Tabunda
+8,3/1/2024,UI,Exiting friend menu crashes game,Return to Main screen,Blurry uninteractable Main Screen,yes,yes,Jaztin Tabunda
+9,3/1/2024,Game,Activating Trap card crashes game,My trap card should be activated and should damage opponent,Freezes timer and game,no,yes,Jaztin Tabunda
+10,3/1/2024,UI,Exit button in Arena mode says Exit Tutorial instead,Exit Arena Mode Button,Exit Tutorial Button,yes,no,Jaztin Tabunda
+11,3/1/2024,Game,Game only gave spell and trap cards for the past 4 turns/draws,Draw at least one Monster card,4 Spell cards in a row,yes,no,Jaztin Tabunda
+1,3/11/2024,UI,Back Button doesn't work on Adventure Select Screen,Return to Main menu or to previous menu,Doesn't do anything,yes,yes,Jaztin Tabunda
+2,3/11/2024,UI,Home Button doesn't work on Adventure Select Screen,Return to Main menu,Doesn't do anything,yes,yes,Jaztin Tabunda
+3,3/11/2024,UI,"Mana ""+"" Button doesn't work on Adventure Select Screen",Possible store screen to buy Mana,Doesn't do anything,yes,no,Jaztin Tabunda
+4,3/11/2024,UI,Mission Name on Adventure Select Screen doesn't change,"When Selecting a Mission, the mission name should change","""Mission Name..."" shows instead of actual mission name",yes,no,Jaztin Tabunda
+5,3/11/2024,UI,Play Button on Adventure Select Screen doesn't work,Should get me into a game,Doesn't do anything,yes,yes,Jaztin Tabunda
+6,3/11/2024,UI,In-Game Sound slider settings still don't work,Sound should go lower or higher,Doesn't change sound still,yes,no,Jaztin Tabunda
+7,3/11/2024,Game,User case: Game card deck RNG seems unfair,Constance Mix of Spell/Trap and Monster cards,Opponent or User constantly gets spell/trap cards,yes,no,Jaztin Tabunda
+8,3/11/2024,Game,User case: I don't feel the money/coin restriction in battle,I shouldn't have enough money at the start to summon 4 monsters from my deck,I could summon 4 monsters and overpower opponent easily,yes,no,Jaztin Tabunda
+9,3/11/2024,Game,Battles sometimes don't load in Arena,Load into AI Battle in Arena,Stuck in Battle but no cards load,yes,yes,Jaztin Tabunda
+1,3/18/2024,Game,User case: it's easy to overpower opponent,Recover from having all monsters defeated,Impossible to come back,yes,no,Jaztin Tabunda
+2,3/18/2024,UI,Sound sliders still don't work in-game,Editing the Sound volume settings in a match can change the sound,Nothing happens still,yes,no,Jaztin Tabunda
+3,3/18/2024,Game,User case: AI doesn't go for the kill,"If my monster is about to die, it would be logical to kill it first before attacking other monsters",AI attacks monsters with full health instead,yes,no,Jaztin Tabunda
+4,3/18/2024,Game,User case: Starting gold should be lower,I should feel restricted and shouldn't be able to put down 4 monsters at the start of the game,I can summon all of my monsters because the starting gold is too high,yes,no,Jaztin Tabunda
+5,3/18/2024,UI,User case: Health bar deduction looks wonky,Should have a smooth decreasing animation when hit,Clunky animation of decrease in health,yes,no,Jaztin Tabunda
+6,3/18/2024,Game,AI doesn't attack if I never place any cards down,AI should attack me even if I remain AFK,Game doesn't switch to my turn and the AI doesn't attack me,yes,yes,Jaztin Tabunda
+7,3/18/2024,UI,In-game Usernames don't show up in battle,My In-game username should be showed instead of my blockchain name,My blockchain name shows instead of my game username,yes,no,Jaztin Tabunda
+8,3/18/2024,Game,User case: Really should add an AFK timer,I should automatically lose and be kicked from the match,I can waste other players' time by never setting down any cards,yes,yes,Jaztin Tabunda
+3,2/21/2024,UI,"Training Mode game states ""Exit Tutorial""","Exit button should say ""Exit Training Mode""",Exit Tutorial is displayed,yes,no,Jaztin Tabunda

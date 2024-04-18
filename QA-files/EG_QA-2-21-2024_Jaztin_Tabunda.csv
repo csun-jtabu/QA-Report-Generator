@@ -1,0 +1,10 @@
+Test #,Build #,Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Test Owner
+0,"Use date you 
+tested on
+2/19/2024",Login/UI/Game/Main Page,"Type the bug or user case to note here
+ex bug: clicking exit doesn't exit
+ex user case: timers take too long",What you expect to happen,What actually happened,yes/no,Yes/no,"Your name
+ex: Kevin Chaja"
+1,2/21/2024,Main Menu Screen,"Although I already played the tutorial, whenever I reach the main menu, they ask me if I'm a new user and allow me to play the tutorial","I expect to not get the ""New player?"" message if I already played the tutorial","I get the ""New player?"" message",yes,no,Jaztin Tabunda
+2,2/21/2024,Game,"You can't change the Master Volume, Music Volume, Sound FX during the game",I expect the volume to go lower or higher when I change any of the audio sliders.,It doesn't do anything. Audio remains the same,yes,no,Jaztin Tabunda
+3,2/21/2024,UI,"Training Mode game states ""Exit Tutorial""","Exit button should say ""Exit Training Mode""","""Exit Tutorial"" is displayed",yes,no,Jaztin Tabunda

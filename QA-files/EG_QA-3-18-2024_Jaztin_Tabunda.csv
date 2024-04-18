@@ -1,0 +1,15 @@
+Test #,Build #,Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Test Owner
+0,"Use date you 
+tested on
+2/19/2024",Login/UI/Game/Main Page,"Type the bug or user case to note here
+ex bug: clicking exit doesn't exit
+ex user case: timers take too long",What you expect to happen,What actually happened,yes/no,Yes/no,"Your name
+ex: Kevin Chaja"
+1,3/18/2024,Game,User case: it's easy to overpower opponent,Recover from having all monsters defeated,Impossible to come back,yes,no,Jaztin Tabunda
+2,3/18/2024,UI,Sound sliders still don't work in-game,Editing the Sound volume settings in a match can change the sound,Nothing happens still,yes,no,Jaztin Tabunda
+3,3/18/2024,Game,User case: AI doesn't go for the kill,"If my monster is about to die, it would be logical to kill it first before attacking other monsters",AI attacks monsters with full health instead,yes,no,Jaztin Tabunda
+4,3/18/2024,Game,User case: Starting gold should be lower,I should feel restricted and shouldn't be able to put down 4 monsters at the start of the game,I can summon all of my monsters because the starting gold is too high,yes,no,Jaztin Tabunda
+5,3/18/2024,UI,User case: Health bar deduction looks wonky,Should have a smooth decreasing animation when hit,Clunky animation of decrease in health,yes,no,Jaztin Tabunda
+6,3/18/2024,Game,AI doesn't attack if I never place any cards down,AI should attack me even if I remain AFK,Game doesn't switch to my turn and the AI doesn't attack me,yes,yes,Jaztin Tabunda
+7,3/18/2024,UI,In-game Usernames don't show up in battle,My In-game username should be showed instead of my blockchain name,My blockchain name shows instead of my game username,yes,no,Jaztin Tabunda
+8,3/18/2024,Game,User case: Really should add an AFK timer,I should automatically lose and be kicked from the match,I can waste other players' time by never setting down any cards,yes,yes,Jaztin Tabunda
